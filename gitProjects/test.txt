@@ -1,2 +1,4 @@
 hello git
 
+try to add some new text to git file
+
