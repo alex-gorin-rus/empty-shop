@@ -1,0 +1,180 @@
+:root{
+  --mainBlue:#2a2a72;
+  --lightBlue:#009ffd;
+  --mainDark:#232528;
+  --mainWhite:#E0CDCE;
+  --mainYellow:#ffa400;
+  --mainPink:#F33553;
+  --textColor:#0E0B2D;
+  --texDeepBlue:#1E2971;
+  --veryLightBlue:#B6C2F6;
+  --lightPink:#F9C3C5;
+  --lightGreen:#8DFB95;
+  --darkGreen:#229B2C;
+}
+
+body{
+  font-family: 'Pacifico', cursive !important;
+  background: white !important;
+}
+.text-red{
+  color: red !important;
+  font-family: 'Literata', serif;
+
+}
+.text-shadow{
+text-shadow: 1px 1px 1px white !important;
+}
+.text-crystall{
+  font-family: 'Dancing Script', cursive !important;
+  color: red !important;
+}
+
+.text-title{
+font-family: 'Caveat', cursive;
+color: var(--texDeepBlue);
+font-size: 3rem;
+}
+
+
+.cleaners-total-sum{
+  width: 80%;
+  padding-bottom: 50px;
+  color: var(--texDeepBlue);
+  font-size: 1.5rem;
+}
+@media(max-width:750px){
+  .title{
+    font-size: 1.9rem;
+  }
+}
+.text-pink{
+  color: var(--mainPink);
+}
+
+
+.red-fonts{
+  font-size: 1.5rem;
+  color: var(--mainPink);
+  padding:0 20px 0 20px;;
+
+}
+
+.text-bright{
+  color: var(--lightBlue);
+}
+
+.text-deep-blue{
+  color: var(--texDeepBlue);
+}
+
+.myRow{
+  position: absolute;
+  top: 17%;
+  width: 100%;
+  left: 0;
+  z-index: 10;
+}
+
+.cleanersImg{
+  position: absolute;
+  top: 33%;
+  left: 0px;
+  width: 40%;
+  height: auto;
+  padding-top: 0;
+}
+.btn-black{
+
+  background: var(--lightGreen) !important;
+  font-size: 1.3rem !important;
+  color: var(--texDeepBlue)  !important;
+  border: 0.1rem solid black var(--veryLightBlue) !important;
+  padding: 0.4rem !important;
+  margin-right: 1rem !important;
+  margin-left: 1rem !important;
+  cursor: pointer;
+}
+.btn-black:hover{
+  background: var(--darkGreen) !important;
+}
+.btn-count{
+  background: var(--lightGreen) !important;
+  font-size: 1.3rem !important;
+  color: var(--texDeepBlue)  !important;
+  border: 0.1rem solid black var(--veryLightBlue) !important;
+  padding: 0.4rem !important;
+  margin-right: 1rem !important;
+  margin-left: 1rem !important;
+}
+.cartIcon{
+  cursor: pointer;
+  font-size: 1.3rem;
+  color: var(--mainYellow);
+}
+
+.my-font{
+  font-family: 'Literata', serif !important;
+}
+.not-found{
+  color: red;
+  font-family: 'Literata', serif !important;
+}
+
+.button-container{
+  color: var(--darkGreen) !important;
+}
+.div-for-empty{
+  color:#F9C3C5 !important;
+}
+
+.total-sum{
+  padding-left: 50% !important;
+  padding-top: 3% !important;
+  font-size: 1.5rem !important;
+  color: var(--texDeepBlue);
+}
+@media(max-width:100px){
+  .link-to-cleaners-cart{
+    font-size: 0.5rem;
+  }
+}
+
+.car-cart-padding-top{
+  padding-top: 17%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.empty{
+  border: 1px solid red;
+}
